@@ -12,6 +12,6 @@ namespace dotnet_rpg.Data
 
         Task<ServiceResponse<string>> Login(string username, string password);
 
-        Task<ServiceResponse<bool>> UserExists(string username);
+        Task<bool> UserExists(string username);
     }
 }
